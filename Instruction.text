@@ -1,0 +1,25 @@
+-------------------------     installs                                  ----------------------------------
+
+npm i express cookie-parser mailtrap bcryptjs dotenv jsonwebtoken mongoose crypto
+
+
+----------------------------  
+
+  nodemon rom davstartot - npm run devit es gvinda package.jsonSHi
+
+
+    "main": "backend/index.js",
+  "scripts": {
+   "dev": "nodemon backend/index.js"
+  },
+
+
+-------------------------
+
+roca moduluri sistemaa importis bolos unda davumatot .js  
+import { connectDB } from "./db/connectDB.js";
+rogorc aq
+
+------------
+
+auth.route ( e.w routebs aregulirebs anu sad shevidet - dabolooebebs.)
