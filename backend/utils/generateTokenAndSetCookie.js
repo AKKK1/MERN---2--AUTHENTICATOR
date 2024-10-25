@@ -7,7 +7,7 @@ export const generateTokenAndSetCookie = (res, userId) => {
 
 
 
-    // dacvaa 
+    // dacvaa da amavedros cookies awyoba 
     res.cookie("token", token, {
         httpOnly: true, //XSS atackisgan gvicavs
         sameSite: "strict",  //csrf atackisgan gvicavs
