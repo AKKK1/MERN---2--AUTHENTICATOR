@@ -27,3 +27,15 @@ auth.route ( e.w routebs aregulirebs anu sad shevidet - dabolooebebs.)
 
 --------------------- 
 mailtrapit mailebs vgzavnit verificatiaze da yvelperi iqaa gasagebad.   authcontrollershi aris punqciebi. 
+
+------------------- front imports---------------
+
+tailwind - dayenebis kodi saitzea.
+
+npm i vite@latest 
+
+npm i react-router-dom  
+
+npm i framer-motion
+
+npm i lucide-react
