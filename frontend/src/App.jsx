@@ -13,6 +13,7 @@ import LoadingSpinner from "./components/LoadingSpinner";
 import { Toaster } from "react-hot-toast";
 import { useAuthStore } from "./store/authStore";
 import { useEffect } from "react";
+import CssTest from "./pages/CssTest";
 
 // protect routes that require authentication
 const ProtectedRoute = ({ children }) => {
@@ -110,6 +111,8 @@ function App() {
             </RedirectAuthenticatedUser>
           }
         />
+
+        <Route path="/cssTest" element={<CssTest />} />
 
         <Route
           path="/reset-password/:token"

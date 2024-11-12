@@ -45,3 +45,11 @@ npm i zustand      //store managmentistvis
 npm i axios    //infos misagebad
 
 npm install react-hot-toast
+
+
+//deployment 
+
+package.json scriptebshi vamatebt   -- aseve node_modulebs vshlit orivegan
+ "dev": "NODE_ENV=development
+"start" : "NODE_ENV=development node backend/index.js",
+"build": " npm install && npm install --prefix frontend && npm run build --prefix frontend" 
