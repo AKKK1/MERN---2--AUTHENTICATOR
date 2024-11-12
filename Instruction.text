@@ -1,6 +1,6 @@
--------------------------     installs                                  ----------------------------------
+-------------------------     installs          backend    anu authenticshi                    ----------------------------------
 
-npm i express cookie-parser mailtrap bcryptjs dotenv jsonwebtoken mongoose crypto
+npm i express cookie-parser mailtrap bcryptjs dotenv jsonwebtoken mongoose crypto cors
 
 
 ----------------------------  
@@ -14,7 +14,7 @@ npm i express cookie-parser mailtrap bcryptjs dotenv jsonwebtoken mongoose crypt
   },
 
 
--------------------------
+-------------------------                        ------------------------------------
 
 roca moduluri sistemaa importis bolos unda davumatot .js  
 import { connectDB } from "./db/connectDB.js";
@@ -36,6 +36,12 @@ npm i vite@latest
 
 npm i react-router-dom  
 
-npm i framer-motion
+npm i framer-motion  //divis chatvirtvis animirebistvis
 
-npm i lucide-react
+npm i lucide-react  //logoebistvis
+
+npm i zustand      //store managmentistvis
+ 
+npm i axios    //infos misagebad
+
+npm install react-hot-toast
